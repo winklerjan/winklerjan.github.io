@@ -17,7 +17,7 @@
     }
 
     function countDishesInMenu(string) {
-        return string != null ? string.split(',').length : 0;
+        return (string != null && string.length != 0) ? string.split(',').length : 0;
     }
   }
 })();
